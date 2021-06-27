@@ -54,6 +54,7 @@ while y == 0:
             print("(1) 1 Minute")
             print("(2) 5 Minutes")
             print("(3) 10 Minutes")
+            print("(4) Back")
             print("``````````````")
             sel = int(input("Selection: "))
             if sel == 1:
