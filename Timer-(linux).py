@@ -36,17 +36,11 @@ os.system("clear")
 y = 0
 while y == 0:
     print("Countdown timer")
-    time.sleep(0.5)
     print("Options:")
-    time.sleep(0.5)
     print("(1) Veiw presets")
-    time.sleep(0.5)
     print("(2) Custom")
-    time.sleep(0.5)
     print("(3) Exit")
-    time.sleep(0.5)
     print("````````")
-    time.sleep(0.5)
     s = int(input("Selection: "))
     if s == 1:
         if val == "test":
