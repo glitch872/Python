@@ -25,7 +25,7 @@ def timer1(a,b,c,d):
     time.sleep(d)
     os.system("clear")
     x = 0
-    while x in range(0, 10):
+    while x in range(0, 5):
         print("Time is up")
         time.sleep(1)
         os.system("clear")
