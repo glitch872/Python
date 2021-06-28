@@ -1,5 +1,6 @@
 import time
 import os
+os.system("clear")
 val = input(":Press |ENTER| key: ")
 # type "test" as the input for the above zone to gain access to presets
 def convert(a,b,c):
