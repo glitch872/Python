@@ -37,7 +37,7 @@ y = 0
 while y == 0:
     print("Countdown timer")
     print("Options:")
-    print("(1) Veiw presets")
+    print("(1) View presets")
     print("(2) Custom")
     print("(3) Exit")
     print("````````")
