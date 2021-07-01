@@ -7,8 +7,10 @@ print("(b) Linux")
 s = input("Selection: ")
 if s == "a":
 	q = "cls"
-else:
+if s == "b":
 	q = "clear"
+else:
+	exit
 os.system(q)
 val = input(":Press |ENTER| key: ")
 # type "test" as the input for the above zone to gain access to presets
