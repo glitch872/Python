@@ -52,8 +52,8 @@ while y == 0:
     print("(2) Custom")
     print("(3) Exit")
     print("````````")
-    s = int(input("Selection: "))
-    if s == 1:
+    s = input("Selection: ")
+    if s == "1":
         if val == "test":
             os.system(q)
             print("Presets:")
@@ -62,26 +62,35 @@ while y == 0:
             print("(3) 10 Minutes")
             print("(4) Back")
             print("``````````````")
-            sel = int(input("Selection: "))
-            if sel == 1:
+            sel = input("Selection: ")
+            if sel == "1":
                 a = 0
                 b = 1
                 c = 0
                 d = convert(a,b,c)
                 timer1(a,b,c,d)
-            elif sel == 2:
+            elif sel == "2":
                 a = 0
                 b = 5
                 c = 0
                 d = convert(a,b,c)
                 timer1(a,b,c,d)
-            elif  sel == 3:
+            elif  sel == "3":
                 a = 0
                 b = 10
                 c = 0
                 d = convert(a,b,c)
                 timer1(a,b,c,d)
+            elif sel == "4":
+                os.system(q)
+                print("Going back")
+                time.sleep(1)
+                os.system(q)
             else:
+                os.system(q)
+                print("That was not an option")
+                print("Going back")
+                time.sleep(1)
                 os.system(q)
         else:
             os.system(q)
@@ -95,7 +104,7 @@ while y == 0:
                 z -= 1
                 time.sleep(1)
             os.system(q)
-    elif s == 2:
+    elif s == "2":
         os.system(q)
         print("The Max time limit is 24:59.59")
         a = int(input("Hours: "))
@@ -103,7 +112,7 @@ while y == 0:
         c = int(input("Seconds: "))
         d = convert(a,b,c)
         timer1(a,b,c,d)
-    elif s == 3:
+    elif s == "3":
         os.system(q)
         print("Bye")
         time.sleep(1)
