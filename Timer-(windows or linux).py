@@ -100,7 +100,8 @@ while y == 0:
             print("going back to menu in:")
             z = 5
             while z in range(1, 6):
-                print( z, end="\r")
+                count = '{:2d}'.format(z)
+                print( count, end="\r")
                 z -= 1
                 time.sleep(1)
             os.system(q)
